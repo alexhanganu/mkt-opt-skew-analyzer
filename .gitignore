@@ -1,0 +1,31 @@
+# API keys — NEVER commit these
+.env
+
+# Generated outputs
+output/
+logs/
+
+# History database (back this up manually — don't track in git)
+cache/skew_history.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
